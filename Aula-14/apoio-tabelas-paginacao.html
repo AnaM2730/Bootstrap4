@@ -16,8 +16,9 @@
   <body style="margin-bottom: 200px;padding: 16px;">
 
     <h2>Tabelas: table</h2>
+    
     <table class="table">
-      <thead>
+      <thead><!-- nao tem scroll -->
         <tr>
           <th>#</th>
           <th>Produto</th>
@@ -26,7 +27,7 @@
         </tr>
       </thead>
 
-      <tbody>
+      <tbody> <!-- tem scroll -->
         <tr>
           <td>00001</td>
           <td>Iphone X</td>
@@ -50,14 +51,107 @@
     </table>
 
     <h2>Tabela escura: table-dark</h2>
-    
+    <table class="table table-dark">
+      <thead><!-- nao tem scroll -->
+        <tr>
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+
+      <tbody> <!-- tem scroll -->
+        <tr>
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+        </tr>
+        <tr>
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+        </tr>
+        <tr>
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+        </tr>
+      </tbody>
+
+    </table>
 
     <h2>Tabela com cabeçalho escuro: thead-dark</h2>
-    
+    <table class="table">
+      <thead class="thead-dark"><!-- nao tem scroll -->
+        <tr>
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+
+      <tbody> <!-- tem scroll -->
+        <tr>
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+        </tr>
+        <tr>
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+        </tr>
+        <tr>
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+        </tr>
+      </tbody>
+
+    </table>
 
     <h2>Tabela com formatações: table-striped, 
       table-bordered, table-borderless</h2>
-    
+      <table class="table table-striped">  <!-- define listas -->
+        <thead><!-- nao tem scroll -->
+          <tr>
+            <th>#</th>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+  
+        <tbody> <!-- tem scroll -->
+          <tr>
+            <td>00001</td>
+            <td>Iphone X</td>
+            <td>Apple</td>
+            <td>R$ 6.999</td>
+          </tr>
+          <tr>
+            <td>00002</td>
+            <td>Nexus 5</td>
+            <td>LG</td>
+            <td>R$ 999</td>
+          </tr>
+          <tr>
+            <td>00003</td>
+            <td>Notebook VAIO</td>
+            <td>Sony</td>
+            <td>R$ 1.999</td>
+          </tr>
+        </tbody>
+  
+      </table>
 
     <h2>Classes contextuais: table-success, table-danger, table...</h2>
     
