@@ -11,17 +11,47 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <style type="text/css">
+      .marcador{
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+      }
+
+      .marcador-container{
+        background: #5bf946;
+        border: 1px solid #36ae26;
+      }
+      
+      </style>
+
   </head>
 
   <body>
 
-    <div>
+    <div class="container marcador-container"> <!-- container - utilizado para agrupar todo o conteudo -->
       
       <h2>Largura fixa</h2>
+      <div class="row" style="border: 1px solid red;">
+        <div class="marcador col">area 1</div> <!-- col - define uma largura fixa -->
+        <div class="marcador col">area 2</div>
+        <div class="marcador col">area 3</div>
+        <div class="marcador col">area 4</div>
+      </div>
 
       <h2>Largura automática (auto-layout)</h2>
+      <div class="row">
+        <div class="marcador col">area 1</div> <!-- col - define uma largura fixa -->
+        <div class="marcador col-4">area 2</div>
+        <div class="marcador col-6">area 3</div>
+      </div>
 
+      
       <h2>Largura igual empilhada</h2>
+      <div class="row">
+        <div class="marcador col-sm">area 1</div> <!-- sm - md - lg -->
+        <div class="marcador col-sm">area 2</div>
+        <div class="marcador col-sm">area 3</div>
+      </div>
 
       <h2>Ordenando</h2>
 

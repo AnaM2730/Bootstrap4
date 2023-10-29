@@ -1,0 +1,3 @@
+dentro da row se utiliza o sistema de grid de duas colunas.
+
+fluid - preenche toda a area de conteudo
